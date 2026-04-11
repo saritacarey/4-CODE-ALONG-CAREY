@@ -1,0 +1,22 @@
+/* Css Written By: Sarita Carey */
+
+/* Global Styles (mobile first) */
+body {
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color: green;
+}
+@media screen and (min-width: 600px){
+    body {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: blue;
+}
+}
+@media screen and (min-width: 800px){
+    body {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: purple;
+}
+}
